@@ -44,17 +44,20 @@ Apart from the 5 main genes, there is a 6th gene, the **bee-specific gene**. The
 
 ### How to Get Genes
 
-Now that you know what the genes are, you need to know how to get the genes. When you **squash** a bee to get genes, you will get all of its 6 different genes. The bad news? You only get a small percentage of the gene. The percentage dictates the chance that another bee has to get that gene. To give genes to a different bee, combine a **Honey Treat** with your chosen gene(s) in a crafting grid and then ++rbutton++ on a bee to give them that trait.
+Now that you know what the genes are, you need to know how to get the genes. When you **squash** a bee to get genes, you will get all of its 6 different genes. The bad news? You only get a small percentage of the gene. The percentage dictates the chance that another bee has to get that gene. 
+
+To give genes/traits to a different bee, combine a **Honey Treat** with your chosen gene(s) in a crafting grid and then `right click` a bee to give it that trait or set of traits.
+*You can combine multiple Genes with a Treat, instead of making a Treat per different gene*
 
 ![Bee squashing diagram](img/pb_howtogetgenes.jpeg){.center width='500px' height='500px'}
 
 ???+ abstract "Getting genes is a pretty simple process:"
 	1. Get a bee you wish to get the genes of
-	2. In a 3 block tall space, put a **Bottler** *(with bottles of course)* on the bottom, and a **Piston** facing down on top with button/lever next to it.
+	2. In a 3 block tall space, put a **Bottler** *(with bottles of course)* on the bottom, and a **Piston** (facing down) on top with button/lever on a block next to it.
 	3. Put the bee in the middle, and quickly press the lever/button, that will squish the bee into a bottler and give you **Squashed Bee Material**
 	4. Put that into a **Centrifuge**, and it will give you the 6 genes of the bee. 
 
-Easy right? But remember, it will only give up to around 20% of the gene per bee, so you need to repeat the process 4-5 times. I'll show you how to get genes automatically below.
+Easy right? But remember, it will only give up to around 20% of the gene per bee, so you need to repeat the process 5-6 times. I'll show you how to get genes automatically below.
 
 ---
 
@@ -88,7 +91,12 @@ After getting the genes out of the centrifuge using whatever pipe you prefer, yo
 
 #### Optional Step 
 
-Using an item pipe from **Pipez** that can pull 100% genes with NBT filtering.
+Using a pipe / mod that has good filtering, you can do some neat filtering to organize your genes. 
+
+- Examples of mods that can do that: 
+	* **LaserIO**
+	* **Modular Routers** 
+	* **Pipez**
 
 Item: `productivebees:gene`
 
@@ -98,7 +106,7 @@ NBT: `{productivebees_gene_purity:100}`
 
 ### Getting the Best Genes
 
-OK, OK, you already know what genes are, how to get them, and how to automate them. This is what you are here for, the *BEST* genes. In this section, I'll discuss the most and least important ones.
+OK, OK, you already know what genes are, how to get them, and how to automate them. This is what you are here for, the ***BEST*** genes. In this section, I'll discuss the most and least important ones.
 
 ???+ note 
 	My recommendation? Put all your good genes into one bee that you can breed. Then, you will get a baby with the same genes.
@@ -108,11 +116,15 @@ OK, OK, you already know what genes are, how to get them, and how to automate th
 ???+ tip
 	You can put **multiple genes** into the same **Honey Treat**. I like to call this *Bee Steroids*, a honey treat with all the best genes.
 
-#### Least Important
+<br/>
 
-The least important ones are **Temper** and **Endurance**. These two are worthless if you use a **Simulation Upgrade** or have them in a box.
+#### ^^Least Important^^
 
-#### Most Important
+The least important ones are **Temper** and **Endurance**. These two are worthless if you use a **Simulator Upgrade** or have them in a box.
+
+<br/>
+
+#### ^^Most Important^^
 
 ##### Productivity: Very High
 
@@ -120,25 +132,34 @@ The least important ones are **Temper** and **Endurance**. These two are worthle
 
 This one's the trickiest and most important; this trait can only be gotten from **Kamikaze Bees**.
 
-**Kamikaze Bees** spawn in a particular way by being attacked. Their only objective is to protect you by... well... going kamikaze on the attacker.
+**Kamikaze Bees** spawn in a very particular way. Their only objective is to protect you by... well... going kamikaze on the attacker.
 
-While wearing a **Bee Nest Helmet** (a Diamond helmet with a Nest on top), if you get hit by a hostile mob, there is a **30% chance** of a Kamikaze Bee spawning. The difficult part? They're *TINY* and *FAST* so you need to have a setup inside an enclosed box, have a **Catcher** ready, or have good aim and cage them once they spawn.
+While wearing a **Bee Nest Helmet** (a Diamond helmet with a Nest on top), if you get hit by a hostile mob, there is a **30% chance** of a Kamikaze Bee spawning. The difficult part? They're *TINY* and *FAST* so you need to have a setup inside an enclosed box using a **Catcher** with Cages inside and maybe a range upgrade, or have good aim and cage them once they spawn.
 
-Get **4-5** of them then squeeze them. This should get you a **100% Very High** Productivity gene.
+Get **5-6** of them then squeeze them. This should get you a **100% Very High** Productivity gene.
 
 !!! warning "Kamikaze Bees can't breed with each other."
 
-Now, you need to put the gene in an easy-to-breed bee (via Honey Treat + Gene) and breed them, and once an offspring is born with the Very High gene use it to breed more bees of that type. With that, you basically have infinite, Very High Productivity genes.
+With that done now you need to put the gene you got from Squishing it in an breedable bee (*like a Iron Bee per example*) (via Honey Treat + Gene) and breed them, and once an Child bee is born with the Very High gene, *grow it* and use it to breed more bees of that type. With that, you basically have infinite, Very High Productivity genes.
+
+<br/><br/>
 
 ##### Behavior: Metaturnal
 
-![](img/pb_behavior.png){align=right width='350px' height='350px'}
+To get this trait, a bee needs to be **left outside** leashed to a fence for a few days. <br/>*Note that the bees you choose need to be breedable, so you can use 1 with the trait to get more by breeding.
 
-To get this trait, a bee needs to be **left outside** for a few days. If it starts as **Diurnal**, it will change to **Nocturnal**, then **Metaturnal**. If you have Nocturnal bees, that's better since you are already halfway there. 
+!!! info
+	- How it works? Every few minutes a check for the leashed bee is done, and on that check, 4 things can happen:
+		* **^^During the Day^^**: 90% chance for Nocturnal -> Metaturnal ***or if you are unlucky*** 10% chance for Nocturnal -> Diurnal
+		* **^^During the Night^^**: 85% chance for Diurnal -> Nocturnal ***or if you are lucky*** 15% chance for Diurnal -> Metaturnal
+		* ^^Every time a check fails, the bee will **take damage**. Make sure to feed the bees with **Honey Treat** to heal them.^^
+I usually have like 10 bees leashed, and if im lucky enough, after like half an hour i should have a couple of metaturnals in there.
 
-I recommend using a **Lead + a Fence** to secure them so they don't fly away.  
+<figure markdown="span">
+  ![Image title](img/pb_behavior.png){ width='350px' height='350px' }
+</figure>
 
-!!! warning "You must feed them **Honey Treats** once in a while because they take damage while they're stuck outside"
+<br/><br/>
 
 ##### Weather Tolerance: Any
 
