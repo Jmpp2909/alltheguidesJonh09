@@ -14,33 +14,43 @@ authors:
 
 ## Jonh09's Bee Guide
 
-Hi, I'm Jonh09 and this guide is to help people who are getting into **Productive Bees** or want to know more advanced stuff.
+Hi, I'm Jonh09 and this guide is to help people who are getting into **Productive Bees** or want to know more advanced stuff. These guides are based on ATM9 / 1.20 Minecraft. Older/newer versions may have slight differences.
 
-If you're starting out and want to learn more, check out [Kai's Guides](#kaimonicks-bee-guides) for complete set of guides. [Pilpoh](https://www.youtube.com/watch?v=7wg3UQ_AsAA) also has an advanced guide! Also, read the **Productive Bees book**; it has all you need to know, including upgrades and how they work, different types of bees, different machines, etc. A glance at the book will help if you get stuck. Also, remember that **JEI** is your best friend.
+If you're starting out and want to learn more, check out [Kai's Guides](#kaimonicks-bee-guides) for resumed set of guides. [Pilpoh](https://www.youtube.com/watch?v=7wg3UQ_AsAA) also has 2 video guides on bees! Also, read the **Productive Bees book** ingame; it has all you need to know, including upgrades and how they work, different types of bees, different machines, etc. A glance at the book will help if you get stuck. Also, remember that **JEI** (the item visualizer) is your best friend.
 
-This guide's main focus is **genes**. Genes are the stats that bees have that determine their productivity, what conditions they can work in, and other less important ones. I will show you the best genes and how to get them here.
+- This guide is divided in 7 parts:
+	* What is **Productive Bees**, and how to start;
+	* Upgrades;
+	* All the machines / blocks;
+	* Automation;
+	* Genes/Traits
+	* Complicated or otherwise hard to get bees;
+	* Tips or personal advices;
+	* The **WannaBee** + **Amber Bee**: ^^The Mob Farm duo^^;
 
-If you find any errors or something that can be done differently, you can ping me @jonh09.
+If you find any errors or something that can be done differently, you can ping me in our discord, @jonh09.
 
 Original guide: [Productive Bees GUIDE - Beginning Tutorials + Best Genes and how to get them](https://imgur.com/a/bh2fHtf)
 
 ---
 
-### Gene Types
+### Genes
 
 ![A bee's genes](img/pb_genes.png){align=right width='249px' height='132px'}
 
-Apart from the 5 main genes, there is a 6th gene, the **bee-specific gene**. These are used to make spawn eggs of that bee. Most major mods use bee spawn eggs to connect themselves to Productive Bees. *(EX: Mystical Agriculture essence bees)*
+Genes (or Traits) are the stats/attributes that bees have that determine their productivity, what conditions they can work in, and other less important ones. In this category, i will show you the best genes and how to get them.
 
+[](){#gene_types}
 ---
-
 | Gene | Description | Levels | Best Level |
 | ---- | ----------- | ------ | ---------- |
 | **Productivity** | Produces more combs per trip | Normal, Medium, High, Very High | Very High
-| **Weather Tolerance** | Determines which weather conditions a bee can work in | None, Rain, Any | Any
+| **Weather Tolerance** | Determines which weather conditions a bee can work in | [None]("Only works during Clear weather"), [Rain]("Works during Clear weather, or while it's Raining") [Any]("Works during Any weather, be it rain, or storm") | Any
 | **Behavior** | What time of day the bee can work | [Diurnal]("Only work during daytime"), [Nocturnal]("Only works at night"), [Metaturnal]("Works 24/7") | Metaturnal
 | **Endurance** | Affects the bee's max health | Weak, Normal, Medium, Strong | Strong
 | **Temper** | Affects bee's hostility | Passive, Normal, Aggressive, Hostile | Passive
+
+Apart from the 5 main genes, there is a 6th gene, the **bee-specific gene**. These are used to make spawn eggs of that bee. Most major mods use bee spawn eggs to connect themselves to Productive Bees. *(EX: Mystical Agriculture essence bees)*
 
 ### How to Get Genes
 
@@ -89,18 +99,23 @@ Using any Item Collector, pick up the **Squashed Bee Material** and send it to a
 
 After getting the genes out of the centrifuge using whatever pipe you prefer, you can send them into a **Gene Indexer**. This machine will sort and combine the genes inside when given a redstone signal *(Lever or Redstone Block)*. It will combine all the genes into their 100% version. These are the ones we are looking for, the ones that allow you to change the genes of a bee 100% of the time.
 
-#### Optional Step 
+#### Extra info for Sorting
 
 Using a pipe / mod that has good filtering, you can do some neat filtering to organize your genes. 
 
 - Examples of mods that can do that: 
 	* **LaserIO**
-	* **Modular Routers** 
+	* **Integrated Dynamics**
 	* **Pipez**
 
-Item: `productivebees:gene`
+Item ID: `productivebees:gene`
 
-NBT: `{productivebees_gene_purity:100}`
+- NBT filters: 
+	* `{productivebees_gene_purity:100}` - for the gene percentage, this targets 100% genes;
+	* `{productivebees_gene_attribute:"productivity}` - for the gene type, valid types being: `productivity`,`weather_tolerance`, `behavior`, `endurance` and `temper`;
+	* `{productivebees_gene_value:0}` - for the gene level, 0 = lowest level, and biggest = highest level, this depends on the gene type. 
+	<br>An example: Productivity: Normal = gene_value:0, and Productivity: Very High = gene_value:3, use the table at [Gene Types](#gene_types) to see the levels.
+
 
 ---
 
@@ -126,9 +141,10 @@ The least important ones are **Temper** and **Endurance**. These two are worthle
 
 #### ^^Most Important^^
 
+[]()
 ##### Productivity: Very High
 
-![](img/pb_kamikaze.png){align=right}
+![](img/pb_kamikaze.png){align=right, #helmet}
 
 This one's the trickiest and most important; this trait can only be gotten from **Kamikaze Bees**.
 
@@ -167,21 +183,37 @@ There are 2 ways to obtain this. The slow and the fast way.
 
 The slow: The strategy of leaving the bees outside so they get forced to adapt like the previous one... OR the fast fishing route. 
 
-By fishing I mean fishing for bees, more specifically **Water Bees**. To get them, you will need to fish in a **River biome**.
+By fishing I mean fishing for bees, more specifically either **Prismarine Bees** or **Water Bees**. <br>
+
+- Differences and where to find:
+	* **Prismarine Bee** comes with ^^**Any**^^ Weather Tolerance, and ^^**Strong**^^ Endurance -> Can be found in any `Deep Ocean` biome;
+	* **Water Bee** comes with ^^**Any**^^ Weather Tolerance -> Can be found in `River` biome.
+
+You will need 2 of those to breed them to make more and to get that sweet weather tolerance. 
+!!! tip 
+	Technically you only need one bee, as there is a neat trick you can do to make a bee breed with itself.
+	<br>Get a **Advanced Hive** + **Expansion Box**, use either 1 **Simulator** and 3 **BaBee** upgrades, or 4 **BaBee** upgrades.
+	<br>One cool thing the **BaBee Upgrade** does, is that it can make bees in a hive breed naturally, and only 1 bee is needed, not 2 like normal breeding. 
+	<br>(*This does not work for bees that can't breed between themselves*)
+
+???+ note 
+	When a bee gets fished out, it will get **angry**, the best way to prevent getting attacked by it, and prevent the bee from dying is:
+		<br>**Wear a Bee Nest Helmet** - the same mentioned in the [Productivity](#helmet) chapter, as the tooltip says, "Angry bees won't attack you".
+		<br>**Use a Catcher** with some range upgrades - it will catch the bee if its in range.
+
  
-!!! tip "If there aren't rivers nearby, use a **Nature's Compass** to point you to a river."
+!!! tip "If there aren't deep oceans or rivers nearby, use a **Nature's Compass** to point you to a river."
 
-While using a normal **fishing rod**, there is a chance for a **Water Bee** to come out of the water, and it will be *MAD*, so have a **Cage** on hand to capture it. You will need 2 of those to breed them to make more and to get that sweet weather tolerance.
+![](img/pb_prism_water_bees.png){.center height='250px'}
 
-![](img/pb_waterbee.png){.center width='500px' height='500px'}
 
 ### Genes When Breeding
 
 When breeding, you must know how genes are assigned to a child bee.
 
-The bee on the **Left** side will be the **Main** bee, which is the one with priority gene-wise. This means that the baby will have the genes of the main bee at a minimum. 
+The bee on the **Left** side will be the **Main** bee, which is the one with priority gene-wise. This means that the baby will have the genes of the main bee as base, never lower. 
 
-The bee on the **Right** only defines the range of gene levels.
+The bee on the **Right** only defines the range/max level of genes.
 
 In the image below the "maxed" gene levels of the **Main** bee (Weather tolerance, behavior, and endurance) gets transferred to the child bee.
 
