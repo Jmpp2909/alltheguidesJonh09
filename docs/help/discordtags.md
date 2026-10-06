@@ -1,7 +1,5 @@
 # Discord Tags
 
-> Auto-generated from ATMTagIndexer. Images live in the `images/` folder.
-
 ## Guides
 
 !!! note "ae2guide"
@@ -167,7 +165,7 @@
     - Lilypad of fertility from Reliquary
     - Immersive Engineering Cloche
     - Botany Pots - can be boosted with Essence Farmland (more for early game)
-    - Industrial Foregoing Hydroponic Beds: <video controls src="images/ma.mp4"></video>
+    - Industrial Foregoing Hydroponic Beds: <video controls src="../images/ma.mp4"></video>
     - Industrial Foregoing **Simulated** Hydroponic Beds:
     <https://www.youtube.com/watch?v=URnd8RhxKTI>
 
@@ -273,7 +271,7 @@
 !!! note "sfm"
     ## [Super Factory Manager (SFM) Discord](<https://discord.gg/xZ98rU9EvH>)
     ## [Basic Text Guide](<https://docs.google.com/document/d/1QhPESCN4kPflme28_W0jVQRnvyrXXs9ZUxBTLhloCbg/edit?tab=t.0#heading=h.bmv5wvth83jd>)
-    <video controls src="images/sfm.mov"></video>
+    <video controls src="../images/sfm.mov"></video>
 
 !!! note "sgear"
     ### Silent Gear Guides
@@ -525,7 +523,7 @@
     * Need help installing or updating a server? type `?server` and read it carefully
 
 !!! note "howargs"
-    <video controls src="images/howargs.mp4"></video>
+    <video controls src="../images/howargs.mp4"></video>
 
 !!! note "hytale"
     Currently we are still exploring **Hytale**'s potential.
@@ -804,7 +802,7 @@
     In that case, in the quest popup, right click the reward, and click Reset Progress, that will let you claim the reward.
 
 !!! note "ca"
-    When you crash, Crash Assistant should popup and click `Upload all and copy message`, wait for logs to be uploaded, after it is done, paste on the discord support channel of the pack<video controls src="images/ca.mp4"></video>
+    When you crash, Crash Assistant should popup and click `Upload all and copy message`, wait for logs to be uploaded, after it is done, paste on the discord support channel of the pack<video controls src="../images/ca.mp4"></video>
 
 !!! note "clientconfig"
     Looks like your folder "config" got corrupted, you need to redownload it, do the following:
@@ -812,7 +810,7 @@
     (If you are in 1.20 or older, go in `saves/world/serverconfig` and delete everything inside too)
     - Go to Change Version and click Continue.
 
-    <video controls src="images/clientconfig.mp4"></video>
+    <video controls src="../images/clientconfig.mp4"></video>
 
 !!! note "compactcrash"
     There's currently a crash associated with the Preview Render displayed when right-clicking a Compact Machine without Personal Shrinking Device. 
@@ -839,7 +837,7 @@
     ```
 
 !!! note "disablemods"
-    {embed} <video controls src="images/disablemods.mp4"></video>
+    {embed} <video controls src="../images/disablemods.mp4"></video>
 
 !!! note "discordcrash"
     - Go to `config/allthetweaks-common.toml` and disable the discord integration.
@@ -999,7 +997,7 @@
     add the line `set ATM9_JAVA="C:/Program Files/Java/jdk-17/bin/javaw.exe"` above the existing set values, changing the path to your specific java installation ![path](images/path.png)
 
 !!! note "repair"
-    In the CurseForge app, there's two three-dot menus, in each, click on "Repair Profile", and "Repair Installation", then head to your options tab, and re-set your RAM allocation and any JVM arguments you have set <video controls src="images/repair.mp4"></video>
+    In the CurseForge app, there's two three-dot menus, in each, click on "Repair Profile", and "Repair Installation", then head to your options tab, and re-set your RAM allocation and any JVM arguments you have set <video controls src="../images/repair.mp4"></video>
 
 !!! note "rtss"
     Embeddium (Sodium) has bugs with RivaTuner, which probably came with Afterburner.
