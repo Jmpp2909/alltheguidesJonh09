@@ -18,5 +18,6 @@ nav:
  - Mod Guides: mods
  - Contributing: guides
  - Help: help
- - About: about
- # - Blogs: /atg/blog
+  - About: about
+  - Discord Tags: misc/discordtags.md
+  # - Blogs: /atg/blog
